@@ -1,0 +1,87 @@
+body{
+    background-color: #000000;
+    color: #F6F6F6;
+}
+strong{
+    color: #22D4FD;
+}
+#cuadroPrincipal{
+    display: flex;
+    
+    position: relative;
+}
+#cuadroIzquierdo{
+    background-color: black;
+    width: 470px;
+    border: 3px solid white;
+    padding: 60px;
+    margin: 60px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+  }
+#cuadroDerecho{
+    background-color: black;
+    width: 460px;
+    border: 3px solid white;
+    padding: 60px;
+    margin: 60px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+img{
+
+    margin-left: 65px;
+    width: 288px;
+    height: 350px;
+    border-radius: 15px;
+}
+.bLinkedin{
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #22D4FD;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .bLinkedin:hover {background-color: #37b1c7}
+  
+  .bLinkedin:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.bGitHub{
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #22D4FD;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-right: 10px;
+  }
+  
+  .bGitHub:hover {background-color: #37b1c7}
+  
+  .bGitHub:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.celdaCentral{
+    width: 150px;
+}
